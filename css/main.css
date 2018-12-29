@@ -1,0 +1,41 @@
+
+.animated:hover {
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+  }
+
+#color li a{
+    color: black !important;
+}
+
+#size{
+    font-size: 60px;
+    font-weight: 900;
+    color: #cab870;
+}
+
+#final{
+    background: #202c35;
+    color:#fff;
+}
+
+#final a{
+    color:  #cab870;
+}
+
+#final2 {
+    background: #2e3f4b;
+    color: #cab870;
+}
+@media screen and(max-width: 768px) {
+    #size{
+        font-size: 40px;
+    }
+}
+
+@media screen and (max-width: 576PX){
+    #size{
+        font-size: 20px;
+    }
+}
